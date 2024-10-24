@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+}
+
+.container{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(37, 3, 79),blue);
+    color: white;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.out{
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    font-weight: bold;
+    align-items: center;
+}
+.of{
+    text-align: center;
+    font-size: small;
+}
+
+.view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.great{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.higher{
+    padding: 30px;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    padding: 30px 0 30px 30px;
+}
+
+.right h2{
+    margin-bottom: 30px;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.react{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(255, 87, 87, .2);
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+}
+.react div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 87, 87);
+    font-weight: bold;
+}
+.score{
+    font-size: 18px;
+    font-weight: bold;
+}
+.score span{
+    font-weight: 100;
+    color: hsl(224, 28%, 46%);
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 120px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.mem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(39, 63%, 47%);
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+}
+.mem div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(216, 183, 18);
+    font-weight: bold;
+}
+
+.verb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(107, 81%, 33%);
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+}
+.verb div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(87, 255, 112);
+    font-weight: bold;
+}
+
+.vis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(224, 30%, 27%);
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+}
+.vis div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(159, 149, 149);
+    font-weight: bold;
+}
+.continue{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px ;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 20px 20px 0px;
+    padding: 25px 30px 20px 10px;
+    width: 90%;
+}
